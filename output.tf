@@ -7,3 +7,6 @@ output "name" {
 output "location" {
   value = azurerm_log_analytics_workspace.law.location
 }
+output "sku" {
+  value = azurerm_log_analytics_workspace.law.sku
+}
